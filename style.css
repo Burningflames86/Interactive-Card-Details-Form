@@ -1,0 +1,153 @@
+
+        body,html{
+            display: flex;
+            column-gap: 20%;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            overflow: hidden;
+            font-family: 'Space Grotesk', sans-serif;
+        }.cardsection{
+            height: 100%;
+            width: 40%;
+            background: url(images/bg-main-desktop.png);
+            background-repeat: no-repeat;
+            position: relative;
+        }.frontcard{
+            width: 420px;
+            background: url(images/bg-card-front.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: -10%;
+            top:10%;
+            color:white;
+        }.backcard{
+            width: 420px;
+            height: 400px;
+            background: url(images/bg-card-back.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: -20%;
+            top:53%;
+            color:white;
+        }h3{
+            display: flex;
+            column-gap: 40%;
+        }svg,h3{
+            margin-left: 5%;
+        }svg{
+            margin-top: 4%;
+        }.number{
+            margin-top: 16%;
+            margin-left: 5%;
+            display: flex;
+            gap:12%;
+        }.nums{
+            font-size: 20px;
+            font-weight: lighter;
+        }.name{
+            margin-top: 6%;
+            display:flex;
+            column-gap: 35%;
+        }.backtext{
+            margin-top: 25%;
+            margin-left:83%;
+        }.infosection{
+            display: flex;
+            flex-grow: 2;
+            color:hsl(278, 68%, 11%);
+            font-weight: lighter;
+            justify-content: center;
+            align-items: center;
+            font-weight: 100;
+            font-size: 0.9375rem;
+        }.container{
+            height: 90%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 20px;
+            
+        }textarea{
+            resize: none;
+        }.date{
+            display: flex;
+            column-gap: 17%;
+            
+        }.same{
+            padding: 1.4%;
+            display: flex;
+            column-gap: 13%;
+            width: 60%;
+        }button{
+            width: 65%;
+            padding:10px;
+            background: hsl(278, 68%, 11%);
+            border: none;
+            color:white;
+            font-size: 14px;
+            border-radius: 7px;
+        }input{
+            width: 60%;
+            padding: 10px;
+            border-radius: 7px;
+            border: 1px hsl(278, 68%, 11%) solid;
+            color:hsl(278, 68%, 11%);
+            box-shadow: none;
+            font-size: 17px;
+
+        }input::placeholder{
+            color:hsl(270, 3%, 87%);
+            font-size: 17px;
+        }.mm,.yy{
+            width: 90%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 15%;
+        }.cvc{
+            width: 95%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+            margin-top: 10%;
+        }input[type=number] {
+            appearance: textfield;
+        }.cardholder, .cardnum{
+            margin-top: 1.8%;
+        }.container2{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 20px;
+        }.thanks, .sv, .button, .sub{
+            width: 68%;
+            text-align: center;
+
+        }.thanks{
+            font-size: 27px;
+        }.sub{
+            margin-top: -6%;
+            margin-bottom: 3%;
+            color: hsl(279, 6%, 55%);
+        }.button{
+            width: 110%;
+            text-align: left;
+        }.butt{
+            padding:14px;
+        }.error{
+            color:hsl(0, 100%, 66%);
+            display: none;
+        }.show{
+            display: inherit;
+        }.position{
+            margin-top: -4%;
+            font-size: 14px;
+            margin-left: 1%;
+        }.pos2{
+            margin-left: 45%;
+            margin-top: -7.5%;
+        }

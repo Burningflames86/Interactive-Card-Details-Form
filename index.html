@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io(3)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io(3)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io(3)/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io(3)/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cardsection">
+        <div class="frontcard">
+            <svg width="84" height="47" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="23.478" cy="23.5" rx="23.478" ry="23.5" fill="#fff"/><path d="M83.5 23.5c0 5.565-4.507 10.075-10.065 10.075-5.559 0-10.065-4.51-10.065-10.075 0-5.565 4.506-10.075 10.065-10.075 5.558 0 10.065 4.51 10.065 10.075Z" stroke="#fff"/></svg>
+            <p class="number" id="number">
+                <span class="nums">0000</span> 
+                <span class="nums">0000</span>  
+                <span class="nums">0000</span>  
+                <span class="nums">0000</span> 
+            </p>
+            <h3 class="name"  id="name"> <span> JANE APPLESEED</span> <span>00/00</span></h3>
+        </div>
+        <div class="backcard">
+            <p class="backtext" id="backtext">000</p>
+        </div>
+    </div>
+    <div class="infosection" id="info">
+        <div class="container">
+            <div> CARDHOLDER NAME
+            <div> <input type="text" name="" id="placeholder" placeholder="e.g. Jane Appleseed" class="cardholder">
+            </div></div>
+            <div> CARD NUMBER
+            <div><input type="number" name="" id="cardnum" placeholder="e.g. 1234 5678 9123 0000" class="cardnum"></div>
+            <span class="error" id="numblank"> Wrong Format Numbers Only</span>
+            </div>
+            <div class="same">
+            <span>EXP. DATE (MM/YY)
+            <span class="date">
+            <span><input type="number" name="" id="mm" class="mm" placeholder="MM"></span>
+            <span><input type="number" name="" id="yy" class="yy" placeholder="YY"></textarea></span>
+            </span></span>
+            <span>CVC <div> <input type="number" name="" id="cvc" class="cvc" placeholder="eg. 123"></div></span>
+            </div>
+            <span class="error position" id="mmblank"> Can't be blank</span>
+            <span class="error position pos2" id="cvcblank"> Can't be blank</span>
+            
+
+            <div class="button">
+                <button id="button">Confirm</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
